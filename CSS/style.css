@@ -1,0 +1,37 @@
+/*Asterisk indicates you want to change all*/
+* {
+    background-color: thistle;
+}
+.box {
+    text-align: center;
+    height: 100px;
+    width: 25%;
+    padding-top: 15px;
+    margin: 20px;
+    float: left;
+}
+#div-1 {
+    background-color: purple;
+}
+#div-2 {
+    background-color: rgb(51, 187, 119);
+    margin-left: 50px;
+}
+#div-3 {
+    background-color: rgb(53, 117, 235);
+}
+#div-4 {
+    background-color: rgb(185, 32, 32);
+    margin-left: 50px;
+}
+h1 {
+    color: white;
+}
+/*This will change all H2 heading within a Div*/
+div h2 {
+    color: rgb(210, 214, 214);
+}
+/*This means the h2 right after div*/
+div > h2 {
+    color: yellowgreen;
+}
