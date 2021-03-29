@@ -4,9 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!--This is how to link a style from a CSS file-->
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Planet Express</title>
 </head>
+
 <body>
-    
+    <a href="index.html">
+        <img src="Images/Logo.png" alt="Planet Express Logo" class="center"
+            height="100px"
+            width="100px"
+       />
+    </a>
+
+    <h1>Planet Express Delivery Service</h1>
+
+    <!--Navigation Bar-->
+    <div class="nav" id="nav1">
+        <a href="index.html">
+            <h3>Home</h3>
+        </a>
+    </div>
+    <div class="nav">
+        <a href="about.html">
+            <h3>About</h3>
+        </a>
+    </div>
+    <div class="nav">
+        <a href="contact.html">
+            <h3>Contact Us</h3> 
+        </a>
+    </div>
+
+    <!--Main Page-->
+    <div class="container" id="form">
+        <h1>Contact Us</h1>
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="subject">How can we help you?</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+    </div>
+    <div class="container" id="map"></div>
+
+    <!--Footer-->
+    <div class="footer">
+        <ul>
+            <li>Planet Express</li>
+            <li>Copyright &copy; 3001 All Rights Reserved</li>
+            <a href="https://en.wikipedia.org/wiki/Futurama">
+                <li>Legal Stuff</li>
+            </a>
+        </ul>
+        <ul class="social-icons">
+            <li><a href="http://www.facebook.com"><img src='Images/facebook.png' /></a></li>
+            <li><a href="http://www.instagram.com"><img src='Images/instagram.png' /></a></li>
+            <li><a href="http://www.pinterest.com"><img src='Images/pinterest.png' /></a></li>
+        </ul>
+    </div>
+
 </body>
 </html>
