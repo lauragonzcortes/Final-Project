@@ -13,7 +13,7 @@
 h1 {
     color: black;
     text-align: center;
-    font-size: 50px;
+    /*font-size: 50px;*/
 }
 
 /*Navigation Bar*/
@@ -34,19 +34,19 @@ a:link {
     text-decoration: none;
   }
   
-  a:visited {
+a:visited {
     color:white;
     background-color: transparent;
     text-decoration: none;
   }
   
-  a:hover {
+a:hover {
     color:rgba(193,71,56,255);
     background-color: transparent;
     text-decoration: underline;
   }
 
-/*Main Content*/
+/*Main page Content*/
 .column {
     float: left;
     width: 50%; 
@@ -67,15 +67,13 @@ p {
 
 #quote {
     text-align: center;
-    font-size: 40px;
-    padding-top: 6px;
     padding-bottom: 6px;
     font-family: cursive;
     color:rgb(19,33,27);
     margin-top: 30px;
 }
   
-  /* Clear floats after the columns */
+  /* Clear floats after the columns on main page*/
 .content:after {
     content: "";
     display: table;
@@ -90,7 +88,7 @@ p {
 }
 
 /*Footer*/
-.footer {
+footer {
     background-color:rgb(19,33,27);
     padding: 10px;
     text-align: center;
@@ -147,11 +145,18 @@ input[type=text], select, textarea {
   .container {
     background-color: rgba(93,201,191,255);
     padding: 25px;
-    width: 40%;
-    float: left;  
+    width: 45%;
+    float: left;
   }
 
+  #map {
+    background-color: white;
+    text-align: center;
+  }
+ 
   /*video on about us page*/
   .video {
       text-align: center;
+      margin-top: 50px;
   }
+
